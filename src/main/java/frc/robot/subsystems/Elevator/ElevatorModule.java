@@ -9,6 +9,9 @@ import com.revrobotics.spark.SparkLowLevel.MotorType;
 import edu.wpi.first.math.geometry.Rotation2d;
 
 public class ElevatorModule {
+    // You know.. this script is eerily similar to CoralModule.java.... but with 2 absoltue encoders instead of 1 relative and 1 absolute.
+    // Similar concept, no need for comments on this one.
+
     private final SparkMax m_leftSpark;
     private final SparkMax m_rightSpark;
 

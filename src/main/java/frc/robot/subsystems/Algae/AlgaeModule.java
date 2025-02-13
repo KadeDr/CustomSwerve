@@ -10,6 +10,7 @@ import com.revrobotics.spark.SparkLowLevel.MotorType;
 import edu.wpi.first.math.geometry.Rotation2d;
 
 public class AlgaeModule {
+    // Cough cough... this is literally like the EXACT same as the CoralModule and CoralModuleState....
     private final SparkMax m_spinSpark;
     private final SparkMax m_rotateSpark;
 

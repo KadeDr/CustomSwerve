@@ -34,6 +34,7 @@ public class RobotContainer {
             m_driveSubsystem));
   }
 
+  // Put everything to do with keybinds here. This will basically deal with your driver controls, calling all your commands.
   private void configureBindings() {
     m_armController.L2().whileTrue(m_elevatorSubsystem.MoveElevator(new Rotation2d(0, 0), new Rotation2d(0, 0)));
     m_armController.L1().whileTrue(m_elevatorSubsystem.MoveElevator(new Rotation2d(0, 5), new Rotation2d(0, 5)));

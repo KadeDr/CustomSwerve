@@ -16,6 +16,7 @@ import edu.wpi.first.wpilibj2.command.SubsystemBase;
 import frc.robot.Constants;
 
 public class DriveSubsystem extends SubsystemBase {
+    // Search up MaxSwerveJavaTemplate on google and click the first github link to get the comments on all of this, cause I ain't doin' allat
 
     private final MaxSwerveModule m_frontLeft = new MaxSwerveModule(
         Constants.DriverConstants.kFrontLeftDrivingCAN,

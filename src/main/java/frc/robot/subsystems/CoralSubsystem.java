@@ -8,6 +8,7 @@ import frc.robot.subsystems.Coral.CoralModule;
 import frc.robot.subsystems.Coral.CoralModuleState;
 
 public class CoralSubsystem extends SubsystemBase {
+    // Literally the exact same as AlgaeSubsystem
     private final CoralModule m_coral = new CoralModule(Constants.ArmConstants.kCoralSpinCAN, Constants.ArmConstants.kCoralRotatCAN);
 
     public Command MoveCoralIntake(double speed, Rotation2d position) {
