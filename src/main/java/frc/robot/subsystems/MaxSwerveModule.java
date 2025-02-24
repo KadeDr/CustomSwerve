@@ -12,6 +12,7 @@ import edu.wpi.first.math.kinematics.SwerveModulePosition;
 import edu.wpi.first.math.kinematics.SwerveModuleState;
 
 public class MaxSwerveModule {
+    // Cough cough.. look at MaxSwerveJavaTemplate on github
     private final SparkMax m_drivingSpark;
     private final SparkMax m_turningSpark;
 

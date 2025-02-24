@@ -13,6 +13,7 @@ import edu.wpi.first.wpilibj2.command.CommandScheduler;
  * this project, you must also update the Main.java file in the project.
  */
 public class Robot extends TimedRobot {
+  // You literally have no reason to add anything to this java file except for your autonomous command...
 
   @SuppressWarnings("unused")
   private final RobotContainer m_robotContainer;

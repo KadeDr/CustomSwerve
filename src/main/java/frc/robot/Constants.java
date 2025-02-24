@@ -17,6 +17,7 @@ import edu.wpi.first.math.util.Units;
  * constants are needed, to reduce verbosity.
  */
 public final class Constants {
+  // The non-DriverConstants are pretty self explanatory, and the driver constants can be found on MaxSwerveJavaTemplate on github
   public static final class OperatorConstants {
     public static final int kDriverControllerPort = 0;
     public static final int kArmControllerPort = 1;
